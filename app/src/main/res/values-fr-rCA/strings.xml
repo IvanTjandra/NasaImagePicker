@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sélecteur d\'Image NASA</string>
+    <string name="button_pick_date">Choisir la Date</string>
+    <string name="button_save_image">Enregistrer l\'Image</string>
+    <string name="button_open_url">Ouvrir l\'URL</string>
+    <string name="button_view_saved_images">Voir les Images Enregistrées</string>
+    <string name="image_saved">Image enregistrée</string>
+    <string name="no_image_to_save">Aucune image à enregistrer</string>
+    <string name="welcome_message">Bienvenue au Sélecteur d\'Image NASA!</string>
+    <string name="help">Aide</string>
+    <string name="help_message_main">Sélectionnez une date pour récupérer l\'image du jour de la NASA. Vous pouvez visualiser ou enregistrer l\'image pour la consulter plus tard.</string>
+    <string name="help_message_saved_images">Cet écran affiche les images que vous avez enregistrées. Appuyez sur une image pour la voir ou appuyez longuement pour la supprimer.</string>
+    <string name="error_loading_image">Erreur de chargement de l\'image</string>
+    <string name="error_fetching_image">Erreur de récupération de l\'image</string>
+    <string name="no_url_available">Aucune URL disponible pour ouvrir</string>
+    <string name="confirm_delete_title">Supprimer l\'Image</string>
+    <string name="confirm_delete_message">Êtes-vous sûr de vouloir supprimer cette image enregistrée?</string>
+    <string name="image_deleted">Image supprimée</string>
+    <string name="error_saving_image">Erreur lors de l\'enregistrement de l\'image</string>
+    <string name="no_image_saved">Aucune image enregistrée</string>
+
+</resources>

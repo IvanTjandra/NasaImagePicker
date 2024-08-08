@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NASA Image Picker</string>
+    <string name="button_pick_date">Pick Date</string>
+    <string name="button_save_image">Save Image</string>
+    <string name="button_open_url">Open URL</string>
+    <string name="button_view_saved_images">View Saved Images</string>
+    <string name="image_saved">Image saved</string>
+    <string name="no_image_to_save">No image to save</string>
+    <string name="welcome_message">Welcome to NASA Image Picker!</string>
+    <string name="help">Help</string>
+    <string name="help_message_main">Select a date to fetch the NASA image of the day. You can view or save the image for later viewing.</string>
+    <string name="help_message_saved_images">This screen displays the images you have saved. Tap an image to view it, or long-press to delete it.</string>
+    <string name="error_loading_image">Error loading image</string>
+    <string name="error_fetching_image">Error fetching image</string>
+    <string name="no_url_available">No URL available to open</string>
+    <string name="confirm_delete_title">Delete Image</string>
+    <string name="confirm_delete_message">Are you sure you want to delete this saved image?</string>
+    <string name="image_deleted">Image deleted</string>
+    <string name="error_saving_image">Error saving image</string>
+    <string name="no_image_saved">No image saved</string>
+</resources>
