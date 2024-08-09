@@ -25,7 +25,6 @@
             android:divider="@android:color/darker_gray"
             android:dividerHeight="1dp"
             android:padding="16dp" />
-
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
