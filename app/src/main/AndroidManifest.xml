@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nasaimagepicker">
+
     <!-- Permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -13,28 +14,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NasaImagePicker">
-        <activity
-            android:name=".BaseActivity"
-            android:exported="false" />
+
         <!-- Main Activity -->
         <activity
             android:name=".MainActivity"
+            android:label="@string/title_main_activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Saved Images Activity -->
+        </activity>
+
+        <!-- Saved Images Activity -->
         <activity
             android:name=".SavedImagesActivity"
-            android:exported="false" /> <!-- History Activity -->
+            android:label="@string/title_saved_images_activity"
+            android:exported="false" />
+
+        <!-- History Activity -->
         <activity
             android:name=".HistoryActivity"
-            android:exported="false" /> <!-- Mock Comment Activity -->
+            android:label="@string/title_history_activity"
+            android:exported="false" />
+
+        <!-- Mock Comment Activity -->
         <activity
             android:name=".MockCommentActivity"
+            android:label="@string/title_mock_comment_activity"
             android:exported="false" />
+
     </application>
 
 </manifest>

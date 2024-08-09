@@ -33,4 +33,9 @@
     <string name="help_message_mock_comment_activity">Pour utiliser le commentaire:\n1. Sélectionnez une image enregistrée.\n2. Entrez un commentaire et appuyez sur \"Envoyer le Commentaire\".\n3. Vous recevrez une confirmation par toast.</string>
     <string name="drawer_open">Ouvrir le tiroir de navigation</string>
     <string name="drawer_close">Fermer le tiroir de navigation</string>
+    <string name="title_main_activity">Activité Principale v1.0</string>
+    <string name="title_saved_images_activity">Activité Images Enregistrées v1.0</string>
+    <string name="title_history_activity">Activité Historique v1.0</string>
+    <string name="title_mock_comment_activity">Activité Commentaire v1.0</string>
+
 </resources>
