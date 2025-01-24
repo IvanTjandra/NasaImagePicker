@@ -8,5 +8,12 @@ pipeline {
                 sh 'mvn clean compile'
             }
         }
+        stage('Test') {
+            steps {
+                echo 'Running tests...'
+                // Run unit tests using Maven
+                sh 'mvn test'
+            }
+        }
     }
 }
