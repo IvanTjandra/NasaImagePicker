@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Building the project...'
                 // Compile Java code using Maven
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
     }
