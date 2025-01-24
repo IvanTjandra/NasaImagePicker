@@ -3,12 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing...'
+                echo 'Building the project...'
+                // Compile Java code using Maven
+                sh 'mvn clean compile'
             }
         }
     }
